@@ -18,10 +18,13 @@ public class Employee {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "emp_id")
 	private int id;
+
 	@Column(name = "emp_first_name")
 	private String firstName;
+
 	@Column(name = "emp_last_name")
 	private String lastName;
+
 	@Column(name = "emp_email")
 	private String email;
 }
